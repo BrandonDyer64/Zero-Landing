@@ -48,6 +48,11 @@ class Navbar extends Component {
                   Donate
                 </a>
               </li>
+              <li>
+                <a className="nav-link" href="http://host.zerodatabase.com">
+                  Sign In
+                </a>
+              </li>
             </ul>
           </div>
         </div>

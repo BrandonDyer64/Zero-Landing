@@ -1,3 +1,7 @@
+---
+title: Setting up Zero
+---
+
 # Zero Setup
 
 ## Web
@@ -51,6 +55,8 @@ cp -R ./build/. /var/www/html/
 
 ## API
 
+This **must** use **SSL**. HTTPS is essential for security!
+
 In `[zero]/api`
 
 ```bash
@@ -59,3 +65,6 @@ npm run start
 ```
 
 This will run the API on port 9000.
+
+If not configured manually, the frontend will assume the API is running in the
+root directory on port 9000.

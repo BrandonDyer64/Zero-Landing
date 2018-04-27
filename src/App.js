@@ -9,10 +9,12 @@ import Hosts from './pages/hosts'
 import Donate from './pages/donate'
 import NotFound from './pages/notFound'
 
+console.log('this is react')
+
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Navbar />
           <div className="container">

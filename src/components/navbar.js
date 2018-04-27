@@ -22,31 +22,31 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/hosts">
+                <Link className="nav-link" to="/hosts">
                   Hosts
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/certified">
+                <Link className="nav-link" to="/certified">
                   Cerification
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/setup.md">
+                <a className="nav-link" href="/setup">
                   Setup
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/host_certified">
+                <Link className="nav-link" to="/host_certified">
                   Host Certification
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav">
               <li>
-                <a className="nav-link" href="/donate">
+                <Link className="nav-link" to="/donate">
                   Donate
-                </a>
+                </Link>
               </li>
               <li>
                 <a className="nav-link" href="http://host.zerodatabase.com">

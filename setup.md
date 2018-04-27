@@ -1,3 +1,7 @@
+---
+title: Setting up Zero
+---
+
 # Zero Setup
 
 ## Web

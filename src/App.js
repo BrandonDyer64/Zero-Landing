@@ -27,6 +27,16 @@ class App extends Component {
               <Route path="/donate" component={Donate} />
               <Route path="*" component={NotFound} />
             </Switch>
+            <hr />
+            <p className="align-right">
+              This site is open source.{' '}
+              <a
+                target="_blank"
+                href="https://github.com/BrandonDyer64/Zero-Landing"
+              >
+                Improve this page
+              </a>.
+            </p>
           </div>
         </div>
       </Router>

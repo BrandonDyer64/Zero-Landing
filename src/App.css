@@ -6,6 +6,10 @@
   float: right;
 }
 
+.align-right {
+  text-align: right;
+}
+
 header {
   text-align: center;
 }
